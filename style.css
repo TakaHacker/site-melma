@@ -1,0 +1,149 @@
+header{
+    background-color: rgb(241, 229,249);
+}
+
+html,body{
+    font-family: 'Lora', serif;
+}
+/* a textura da imagem abaixo está diferente da cor da seção*/
+.logo{
+    width: 420px;
+    margin: 0 0 0 100px;
+}
+
+.cabecalho .container{
+    font-family: 'Lora', serif;
+    background-color: rgb(241, 229,249);
+    margin: 0 auto;
+
+    /*FLEXBOX*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho-link{
+    margin: 0 0 0 20px;
+}
+
+.cabecalho nav {
+    margin: 0 20px;
+    margin-right: 20%;
+}
+
+nav li{
+    margin: 0 0 0 15px
+}
+
+nav a {
+    text-transform: uppercase;
+    color: rgb(75, 11, 79); 
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.container-principal{
+    justify-content: center;
+}
+
+.conteudo-principal{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.principal{
+    display: flex;
+    
+}
+
+.titulo-principal{
+    margin: 0 0 20px 0;
+    height: min-content;    
+    font-size: 2em;
+    margin: 0 0 1em;
+}
+
+.texto-imagem{
+    
+}
+
+aside{
+    margin: 40px;
+}
+
+.secundaria{
+    display: flex;
+
+}
+
+
+.imagens{
+    width: 300px;
+}
+
+.imagem-virada{
+    transform: rotate(90deg);
+    width: 300px; 
+}
+
+.rodape .container{
+    display:flex;
+    justify-content: center;
+    background-color: rgb(75, 11, 79); 
+    text-align: center;
+}
+
+.copyright{
+    margin: 10px;
+}
+
+footer h1{
+    margin-top: 25px;
+    color: rgb(241, 229,249);
+}
+
+/* PÁGINA DOS SLIDES */
+
+.slideshow{
+    margin: 20px;
+    border-color:rgb(241, 229,249);
+}
+
+.slides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    }
+  
+  .slides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+    }
+  
+  .slides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+    }
+  
+  .slides img {
+    display: block;
+    height: min-content;
+    float: left;
+    width: 100%;
+    height: max-content;
+    border: 0;
+    }
